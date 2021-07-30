@@ -1,0 +1,25 @@
+@media only screen and (min-width: 500px) {
+  .body {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    text-align: justify;
+  }
+  .header {
+    font-size: 4rem;
+    line-height: 0.8;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .body {
+    font-size: 0.8rem;
+    margin: 1rem;
+  }
+  .header {
+    font-size: 2.5rem;
+    line-height: 0.8;
+  }
+  .footer a {
+    padding: 0.25rem 0.5rem;
+  }
+}
